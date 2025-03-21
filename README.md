@@ -1,1 +1,3 @@
-# Freedomstore.io web
+# Freedomstore.io
+
+![icon](icon.png)
