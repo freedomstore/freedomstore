@@ -4,7 +4,7 @@
   "description": "Your marketplace for apps dedicated to protecting your privacy and personal rights.",
   "iconURL": "https://freedomstore.io/icon.png",
   "website": "https://freedomstore.io",
-  "tintColor": "#1a1e25",
+  "tintColor": "#222222",
   "featuredApps": ["it.vexl.next"],
   "apps": [
     {
