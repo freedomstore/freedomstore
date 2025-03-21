@@ -22,6 +22,7 @@
         "https://freedomstore.io/assets/vexl/screenshot3.png",
         "https://freedomstore.io/assets/vexl/screenshot4.png"
       ],
+      "beta": false,
       "versions": [
         {
           "version": "1.28.0",
