@@ -1,0 +1,47 @@
+{
+  "name": "Freedom Store",
+  "featuredApps": ["it.vexl.next"],
+  "apps": [
+    {
+      "name": "Vexl",
+      "bundleIdentifier": "it.vexl.next",
+      "marketplaceID": "6448051657",
+      "developerName": "Vexl",
+      "localizedDescription": "We are introducing a new Vexl App that will enable us to continue improving Vexl more quickly and reliably. You can keep using the old one, but we recommend migrating to Vexl Next, as the previous one will soon be deprecated.\nDrawing on feedback we have collected since the launch of Vexl, our goal with the new Vexl app is to address the most pressing issues, primarily concerning performance and UI. Additionally, users can look forward to a variety of new features that will enrich their experience while using the app.\n\nVexl users interact not only with their primal social network (based on mobile phone contacts) but also with the second degree social network - contacts of contacts, friends of friends. This way it aims to delegate trust and reputation from the real world directly to the Vexl app and at the same time use it as an incentive for their good behavior on the marketplace.",
+      "iconURL": "https://freedomstore.io/assets/vexl/icon.png",
+      "tintColor": "#FCCD6C",
+      "category": "social",
+      "screenshots": [
+        "https://freedomstore.io/assets/vexl/screenshot1.png",
+        "https://freedomstore.io/assets/vexl/screenshot2.png",
+        "https://freedomstore.io/assets/vexl/screenshot3.png",
+        "https://freedomstore.io/assets/vexl/screenshot4.png"
+      ],
+      "versions": [
+        {
+          "version": "1.28.0",
+          "buildVersion": "400",
+          "marketingVersion": "1.28.0 (400)",
+          "date": "2025-03-21",
+          "downloadURL": "https://releases.vexl.it/ios/72810069-5ac4-4184-8054-f106bccb64eb/",
+          "minOSVersion": "13.4",
+          "appPermissions": {
+            "entitlements": ["com.apple.developer.associated-domains"],
+            "privacy": {
+              "NSCalendarsFullAccessUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
+              "NSCalendarsUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
+              "NSCameraUsageDescription": "Vexl wants to access your camera in order to take a photo for your avatar or scan QR code to add other users to your Vexl network.",
+              "NSContactsUsageDescription": "Vexl needs access to your contacts to make your offers visible for them in a secure way. Phone number of contacts you select will be encrypted and uploaded to the server.",
+              "NSFaceIDUsageDescription": "Vexl needs access to FaceID to secure your account and make it easier to log in.",
+              "NSLocationWhenInUseUsageDescription": "Vexl needs access to you location to show your position on the map. Location will never be share with anyone (even ourselves).",
+              "NSPhotoLibraryUsageDescription": "Vexl wants to access your photos in order to select a picture for your avatar.",
+              "NSRemindersFullAccessUsageDescription": "Vexl needs access to your reminders for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
+              "NSRemindersUsageDescription": "Vexl needs access to your reminders for scheduling trade meetings. Your data is kept private and only used for coordinating trades."
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "news": []
+}
