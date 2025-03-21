@@ -29,6 +29,7 @@
           "marketingVersion": "1.28.0 (400)",
           "date": "2025-03-21",
           "downloadURL": "https://releases.vexl.it/ios/72810069-5ac4-4184-8054-f106bccb64eb/",
+          "size": 10000000,
           "minOSVersion": "13.4",
           "appPermissions": {
             "entitlements": ["com.apple.developer.associated-domains"],
