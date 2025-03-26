@@ -52,6 +52,7 @@
           "buildVersion": "412",
           "marketingVersion": "1.28.2 (412)",
           "date": "2025-03-26",
+          "size": 10000000,
           "downloadURL": "https://releases.vexl.it/ios/0bd1e647-750f-4625-922e-b2ebe3b61694/",
           "localizedDescription": "In this version we fixed bug with sending chat notifications when no new message received.  We also introduced new bugfixes and UI/UX improvements.",
           "minOSVersion": "13.4",
