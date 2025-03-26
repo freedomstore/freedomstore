@@ -25,12 +25,13 @@
       "beta": false,
       "versions": [
         {
-          "version": "1.28.0",
-          "buildVersion": "400",
-          "marketingVersion": "1.28.0 (400)",
-          "date": "2025-03-21",
-          "downloadURL": "https://releases.vexl.it/ios/72810069-5ac4-4184-8054-f106bccb64eb/",
+          "version": "1.28.2",
+          "buildVersion": "412",
+          "marketingVersion": "1.28.2 (412)",
+          "date": "2025-03-26",
           "size": 10000000,
+          "downloadURL": "https://releases.vexl.it/ios/0bd1e647-750f-4625-922e-b2ebe3b61694/",
+          "localizedDescription": "In this version we fixed bug with sending chat notifications when no new message received.  We also introduced new bugfixes and UI/UX improvements.",
           "minOSVersion": "13.4",
           "appPermissions": {
             "entitlements": ["com.apple.developer.associated-domains"],
@@ -48,13 +49,12 @@
           }
         },
         {
-          "version": "1.28.2",
-          "buildVersion": "412",
-          "marketingVersion": "1.28.2 (412)",
-          "date": "2025-03-26",
+          "version": "1.28.0",
+          "buildVersion": "400",
+          "marketingVersion": "1.28.0 (400)",
+          "date": "2025-03-21",
+          "downloadURL": "https://releases.vexl.it/ios/72810069-5ac4-4184-8054-f106bccb64eb/",
           "size": 10000000,
-          "downloadURL": "https://releases.vexl.it/ios/0bd1e647-750f-4625-922e-b2ebe3b61694/",
-          "localizedDescription": "In this version we fixed bug with sending chat notifications when no new message received.  We also introduced new bugfixes and UI/UX improvements.",
           "minOSVersion": "13.4",
           "appPermissions": {
             "entitlements": ["com.apple.developer.associated-domains"],
