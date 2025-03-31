@@ -1,0 +1,39 @@
+<html>
+<head>
+  <title>Freedom Store</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="icon.png">
+  <link rel="apple-touch-icon" href="icon.png">
+</head>
+<body bgcolor="#222222" text="white" link="#fbae21" alink="#fbae21" vlink="#fbae21" style="font-family: sans-serif;">
+  <center>
+    <h1>Freedom Store</h1>
+    <img src="icon.png" width="384">
+
+    <h2>How to install Freedom Store on iOS</h2>
+    <p>1. Install AltStore: <button id="download-button">click</button></p>
+    <p>2. Add Freedom Store source to AltStore: <button id="source-button">click</button></p>
+
+    <hr width="400" style="margin: 40px;">
+
+    <h2>Troubleshooting</h2>
+    <p>Please make sure you are:</p>
+    <p>1. Using Safari</p>
+    <p>2. Physically located in an EU country</p>
+    <p>3. Signed in to an EU App Store account</p>
+    <p>4. Running iOS/iPadOS 18.0+</p>
+  </center>
+
+
+  <script src="https://altstore.io/js/download.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    document.getElementById('download-button').onclick=async() => {
+      await downloadAltStore();
+    };
+    document.getElementById('source-button').onclick=async() => {
+      window.location.href = "altstore-pal://source?url=https://freedomstore.io/altstore-source.json";
+    };
+  </script>
+
+</body>
+</html>
