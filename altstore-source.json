@@ -80,22 +80,22 @@
       "developerName": "Minibits",
       "website": "https://minibits.cash",
       "localizedDescription": "Minibits is an ecash and Lightning wallet exploring how ₿-backed ecash can enable instant, cheap, and private value transfer.",
-      "iconURL": "https://minibits.cash/icons/minibits_icon-192.png",
+      "iconURL": "https://minibits.cash/icons/minibits-512.png",
       "tintColor": "#254EDB",
       "category": "other",
       "screenshots": [
-        "https://minibits.cash/screenshots/01.png",
-        "https://minibits.cash/screenshots/02.png",
-        "https://minibits.cash/screenshots/03.png",
-        "https://minibits.cash/screenshots/04.png",
-        "https://minibits.cash/screenshots/05.png"
+        "https://minibits.cash/screenshots/ios/01.png",
+        "https://minibits.cash/screenshots/ios/02.png",
+        "https://minibits.cash/screenshots/ios/03.png",
+        "https://minibits.cash/screenshots/ios/04.png",
+        "https://minibits.cash/screenshots/ios/05.png"
       ],
       "beta": true,
       "versions": [
         {
           "version": "0.2.2",
           "buildVersion": "13",
-          "marketingVersion": "0.2.2-beta.14",
+          "marketingVersion": "0.2.2-beta",
           "date": "2025-06-01",
           "downloadURL": "https://minibits.cash/releases/ios/3639b0f9-a6f2-49d9-8d4e-37f5355fbc8c/",
           "size": 10000000,
