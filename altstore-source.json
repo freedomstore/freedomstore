@@ -5,7 +5,7 @@
   "iconURL": "https://freedomstore.io/icon.png",
   "website": "https://freedomstore.io",
   "tintColor": "#222222",
-  "featuredApps": ["it.vexl.next"],
+  "featuredApps": ["it.vexl.next", "cash.minibits.wallet"],
   "apps": [
     {
       "name": "Vexl",
