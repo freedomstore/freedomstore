@@ -5,7 +5,12 @@
   "iconURL": "https://freedomstore.io/icon.png",
   "website": "https://freedomstore.io",
   "tintColor": "#222222",
-  "featuredApps": ["it.vexl.next", "to.bitkit", "cash.minibits.wallet"],
+  "featuredApps": [
+    "it.vexl.next",
+    "to.bitkit",
+    "cash.minibits.wallet",
+    "com.sovranbitcoin"
+  ],
   "apps": [
     {
       "name": "Vexl",
@@ -151,6 +156,48 @@
           }
         }
       ]
+    },
+    {
+      "name": "Sovran",
+      "bundleIdentifier": "com.sovranbitcoin",
+      "marketplaceID": "6499554529",
+      "developerName": "Sovran",
+      "subtitle": "",
+      "localizedDescription": "Sovran is a Cashu wallet for sending and receiving Bitcoin with integrated Nostr functionality, enabling rich social interactions.",
+      "iconURL": "https://sovran.money/ios/logo.png",
+      "tintColor": "#c53163",
+      "category": "social",
+      "screenshots": [
+        "https://sovran.money/ios/1.png",
+        "https://sovran.money/ios/2.png",
+        "https://sovran.money/ios/3.png",
+        "https://sovran.money/ios/4.png",
+        "https://sovran.money/ios/5.png",
+        "https://sovran.money/ios/6.png",
+        "https://sovran.money/ios/7.png",
+        "https://sovran.money/ios/8.png"
+      ],
+      "versions": [
+        {
+          "downloadURL": "https://sovran.money/ios/releases/0130109b-8a39-481d-8c18-2b856811bd5d/",
+          "size": 25400000,
+          "version": "0.0.20",
+          "buildVersion": "1",
+          "date": "2025-06-10T07:20:00+01:00",
+          "localizedDescription": null,
+          "minOSVersion": "15.1"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.nfc.readersession.formats"
+        ],
+        "privacy": {
+          "NSCameraUsageDescription": "Sovran will use your camera to scan QR codes to make it easier to send and receive payments."
+        }
+      },
+      "patreon": {}
     }
   ],
   "news": []
