@@ -5,7 +5,7 @@
   "iconURL": "https://freedomstore.io/icon.png",
   "website": "https://freedomstore.io",
   "tintColor": "#222222",
-  "featuredApps": ["it.vexl.next", "cash.minibits.wallet", "com.sovranbitcoin"],
+  "featuredApps": ["it.vexl.next", "cash.minibits.wallet", "to.bitkit", "com.sovranbitcoin"],
   "apps": [
     {
       "name": "Sovran",
@@ -144,6 +144,48 @@
             "privacy": {
               "NSCameraUsageDescription": "This app requires access to the camera to scan QR codes.",
               "NSUserNotificationsUsageDescription": "This app uses notifications to keep you updated with incoming transactions."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Bitkit: Bitcoin & LN Wallet",
+      "bundleIdentifier": "to.bitkit",
+      "marketplaceID": "6502440655",
+      "developerName": "Synonym Software Ltd.",
+      "website": "https://bitkit.to",
+      "localizedDescription": "Bitkit is a simple, yet powerful self-custodial wallet, powering Bitcoin payments to anyone, anywhere, any time.",
+      "iconURL": "https://bitkit.to/altstore/assets/icon.png",
+      "tintColor": "#FF4400",
+      "category": "other",
+      "screenshots": [
+        "https://bitkit.to/altstore/screenshots/1.png",
+        "https://bitkit.to/altstore/screenshots/2.png",
+        "https://bitkit.to/altstore/screenshots/3.png",
+        "https://bitkit.to/altstore/screenshots/4.png",
+        "https://bitkit.to/altstore/screenshots/5.png",
+        "https://bitkit.to/altstore/screenshots/6.png",
+        "https://bitkit.to/altstore/screenshots/7.png",
+        "https://bitkit.to/altstore/screenshots/8.png",
+        "https://bitkit.to/altstore/screenshots/9.png"
+      ],
+      "beta": false,
+      "versions": [
+        {
+          "version": "1.1.1",
+          "buildVersion": "153",
+          "marketingVersion": "1.1.1",
+          "date": "2025-06-10",
+          "downloadURL": "https://bitkit.to/altstore/releases/1d8bb4b6-6dd7-4c51-bf0d-b023af64fe75/",
+          "size": 10000000,
+          "localizedDescription": "Bitkit is a simple, yet powerful self-custodial wallet, powering Bitcoin payments to anyone, anywhere, any time.",
+          "appPermissions": {
+            "entitlements": ["com.apple.developer.associated-domains"],
+            "privacy": {
+              "NSCameraUsageDescription": "The camera is used to scan qrcodes in order to import or send Bitcoin and assets.",
+              "NSFaceIDUsageDescription": "Enabling Face ID allows you quick and secure access to your account.",
+              "NSPhotoLibraryUsageDescription": "The photo library is used to scan qrcodes in order to import or send Bitcoin and assets."
             }
           }
         }
