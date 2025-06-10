@@ -5,7 +5,7 @@
   "iconURL": "https://freedomstore.io/icon.png",
   "website": "https://freedomstore.io",
   "tintColor": "#222222",
-  "featuredApps": ["it.vexl.next", "cash.minibits.wallet", "to.bitkit", "com.sovranbitcoin"],
+  "featuredApps": ["it.vexl.next", "to.bitkit", "cash.minibits.wallet", "com.sovranbitcoin"],
   "apps": [
     {
       "name": "Sovran",
