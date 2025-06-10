@@ -196,8 +196,7 @@
         "privacy": {
           "NSCameraUsageDescription": "Sovran will use your camera to scan QR codes to make it easier to send and receive payments."
         }
-      },
-      "patreon": {}
+      }
     }
   ],
   "news": []
