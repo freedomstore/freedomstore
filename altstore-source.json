@@ -5,8 +5,45 @@
   "iconURL": "https://freedomstore.io/icon.png",
   "website": "https://freedomstore.io",
   "tintColor": "#222222",
-  "featuredApps": ["it.vexl.next", "cash.minibits.wallet"],
+  "featuredApps": ["it.vexl.next", "cash.minibits.wallet", "com.sovranbitcoin"],
   "apps": [
+    {
+      "name": "Sovran",
+      "bundleIdentifier": "com.sovranbitcoin",
+      "marketplaceID": "6499554529",
+      "developerName": "Sovran",
+      "subtitle": "",
+      "localizedDescription": "Sovran is a Cashu wallet for sending and receiving Bitcoin with integrated Nostr functionality, enabling rich social interactions.",
+      "iconURL": "https://sovran.money/ios/logo.png",
+      "tintColor": "#c53163",
+      "category": "social",
+      "screenshots": [
+        "https://sovran.money/ios/1.png",
+        "https://sovran.money/ios/2.png",
+        "https://sovran.money/ios/3.png",
+        "https://sovran.money/ios/4.png",
+        "https://sovran.money/ios/5.png",
+        "https://sovran.money/ios/6.png",
+        "https://sovran.money/ios/7.png",
+        "https://sovran.money/ios/8.png"
+      ],
+      "versions": [
+        {
+          "downloadURL": "https://productionresultssa14.blob.core.windows.net/actions-results/5e5112d6-59f3-493c-b4bb-20185229f8cc/workflow-job-run-4df39c96-f8a5-5acc-8e7e-0efbfe3123e2/artifacts/d18fd9248dd5688be2f49d28b00a57b126e67163ad332401d60faaa717f4146d.zip?rscd=attachment%3B+filename%3D%220130109b-8a39-481d-8c18-2b856811bd5d.zip%22&se=2025-06-10T07%3A11%3A13Z&sig=vINQcoL9UGCRj57JGNFQ8bTaUUkiOt8rVS570ppvd5Q%3D&ske=2025-06-10T15%3A44%3A49Z&skoid=ca7593d4-ee42-46cd-af88-8b886a2f84eb&sks=b&skt=2025-06-10T03%3A44%3A49Z&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skv=2025-05-05&sp=r&spr=https&sr=b&st=2025-06-10T07%3A01%3A08Z&sv=2025-05-05",
+          "size": 25400000,
+          "version": "0.0.20",
+          "buildVersion": "1",
+          "date": "2025-06-10T07:20:00+01:00",
+          "localizedDescription": null,
+          "minOSVersion": "15.1"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "patreon": {}
+    },
     {
       "name": "Vexl",
       "bundleIdentifier": "it.vexl.next",
