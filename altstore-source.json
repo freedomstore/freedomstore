@@ -39,8 +39,10 @@
         }
       ],
       "appPermissions": {
-        "entitlements": [],
-        "privacy": {}
+        "entitlements": ["com.apple.developer.associated-domains", "com.apple.developer.nfc.readersession.formats"],
+        "privacy": {
+          "NSCameraUsageDescription": "Sovran will use your camera to scan QR codes to make it easier to send and receive payments."
+        }
       },
       "patreon": {}
     },
