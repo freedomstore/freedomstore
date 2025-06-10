@@ -134,9 +134,9 @@
       "beta": false,
       "versions": [
         {
-          "version": "0.1.1",
+          "version": "1.1.1",
           "buildVersion": "153",
-          "marketingVersion": "0.1.1",
+          "marketingVersion": "1.1.1",
           "date": "2025-06-10",
           "downloadURL": "https://bitkit.to/altstore/releases/1d8bb4b6-6dd7-4c51-bf0d-b023af64fe75/",
           "size": 10000000,
