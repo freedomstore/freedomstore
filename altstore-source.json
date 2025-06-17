@@ -19,14 +19,14 @@
       "marketplaceID": "6448051657",
       "developerName": "Vexl",
       "localizedDescription": "Vexl is a private, trust-based Bitcoin trading app that lets you buy and sell directly with people in your social network — no KYC, no middlemen, no public ratings. Built with end-to-end encryption and a privacy-first design, Vexl protects your data while empowering you to trade Bitcoin securely through real connections.",
-      "iconURL": "https://freedomstore.io/assets/vexl/icon.png",
+      "iconURL": "https://source.freedomstore.io/assets/icon.png",
       "tintColor": "#FCCD6C",
       "category": "social",
       "screenshots": [
-        "https://freedomstore.io/assets/vexl/screenshot4.png",
-        "https://freedomstore.io/assets/vexl/screenshot3.png",
-        "https://freedomstore.io/assets/vexl/screenshot2.png",
-        "https://freedomstore.io/assets/vexl/screenshot1.png"
+        "https://source.freedomstore.io/assets/screenshot4.png",
+        "https://source.freedomstore.io/assets/screenshot3.png",
+        "https://source.freedomstore.io/assets/screenshot2.png",
+        "https://source.freedomstore.io/assets/screenshot1.png"
       ],
       "beta": false,
       "versions": [
