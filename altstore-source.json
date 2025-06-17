@@ -2,9 +2,10 @@
   "name": "Freedom Store",
   "subtitle": "Apps Empowering Individual Freedom",
   "description": "Your marketplace for apps dedicated to protecting your privacy and personal rights.",
-  "iconURL": "https://freedomstore.io/icon.png",
+  "iconURL": "https://source.freedomstore.io/logo.png",
   "website": "https://freedomstore.io",
-  "tintColor": "#222222",
+  "headerURL": "https://source.freedomstore.io/header2.png",
+  "tintColor": "#193FFF",
   "featuredApps": [
     "it.vexl.next",
     "to.bitkit",
@@ -22,10 +23,10 @@
       "tintColor": "#FCCD6C",
       "category": "social",
       "screenshots": [
-        "https://freedomstore.io/assets/vexl/screenshot1.png",
-        "https://freedomstore.io/assets/vexl/screenshot2.png",
+        "https://freedomstore.io/assets/vexl/screenshot4.png",
         "https://freedomstore.io/assets/vexl/screenshot3.png",
-        "https://freedomstore.io/assets/vexl/screenshot4.png"
+        "https://freedomstore.io/assets/vexl/screenshot2.png",
+        "https://freedomstore.io/assets/vexl/screenshot1.png"
       ],
       "beta": false,
       "versions": [
