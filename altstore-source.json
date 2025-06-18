@@ -6,12 +6,7 @@
   "website": "https://freedomstore.io",
   "headerURL": "https://source.freedomstore.io/header2.png",
   "tintColor": "#193FFF",
-  "featuredApps": [
-    "it.vexl.next",
-    "to.bitkit",
-    "cash.minibits.wallet",
-    "com.sovranbitcoin"
-  ],
+  "featuredApps": ["it.vexl.next", "to.bitkit", "cash.minibits.wallet", "com.sovranbitcoin", "com.flashapp.alt"],
   "apps": [
     {
       "name": "Vexl",
@@ -214,14 +209,47 @@
         }
       ],
       "appPermissions": {
-        "entitlements": [
-          "com.apple.developer.associated-domains",
-          "com.apple.developer.nfc.readersession.formats"
-        ],
+        "entitlements": ["com.apple.developer.associated-domains", "com.apple.developer.nfc.readersession.formats"],
         "privacy": {
           "NSCameraUsageDescription": "Sovran will use your camera to scan QR codes to make it easier to send and receive payments."
         }
       }
+    },
+    {
+      "name": "Flash",
+      "bundleIdentifier": "com.flashapp.alt",
+      "marketplaceID": "6747149935",
+      "developerName": "Island Bitcoin",
+      "localizedDescription": "Flash is helping bring the digital finance ecosystem to the Caribbean. A great wallet for beginners, Flash is designed to make your first steps in bitcoin simple.",
+      "iconURL": "https://source.freedomstore.io/assets/flash/icon.png",
+      "tintColor": "#007749",
+      "category": "social",
+      "screenshots": [
+        "https://raw.githubusercontent.com/lnflash/flash-assets/main/04-documentation/screenshots/v0.4.0/appstore-screenshot-1.png",
+        "https://raw.githubusercontent.com/lnflash/flash-assets/main/04-documentation/screenshots/v0.4.0/appstore-screenshot-2.png",
+        "https://raw.githubusercontent.com/lnflash/flash-assets/main/04-documentation/screenshots/v0.4.0/appstore-screenshot-3.png",
+        "https://raw.githubusercontent.com/lnflash/flash-assets/main/04-documentation/screenshots/v0.4.0/appstore-screenshot-4.png",
+        "https://raw.githubusercontent.com/lnflash/flash-assets/main/04-documentation/screenshots/v0.4.0/appstore-screenshot-5.png"
+      ],
+      "beta": false,
+      "versions": [
+        {
+          "version": "0.4.1",
+          "buildVersion": "18",
+          "marketingVersion": "0.4.1 (18)",
+          "date": "2025-06-13",
+          "size": 10000000,
+          "downloadURL": "https://releases.vexl.it/ios/43a79c6b-a16c-44e5-bed5-2c8f9076f992/",
+          "localizedDescription": "Flash Mobile App Version [v0.4.1], UI Redesign, Advanced Mode Improvements, Nostr Profile Optimization",
+          "minOSVersion": "13.4",
+          "appPermissions": {
+            "entitlements": ["com.apple.developer.associated-domains", "com.apple.developer.nfc.readersession.formats"],
+            "privacy": {
+              "NSCameraUsageDescription": "Flash will use your camera to scan QR codes to make it easier to send and receive payments."
+            }
+          }
+        }
+      ]
     }
   ],
   "news": []
