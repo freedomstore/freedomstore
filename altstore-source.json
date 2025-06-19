@@ -221,7 +221,7 @@
       "marketplaceID": "6747149935",
       "developerName": "Island Bitcoin",
       "localizedDescription": "Flash is helping bring the digital finance ecosystem to the Caribbean. A great wallet for beginners, Flash is designed to make your first steps in bitcoin simple.",
-      "iconURL": "https://source.freedomstore.io/assets/flash/icon.png",
+      "iconURL": "https://raw.githubusercontent.com/lnflash/flash-assets/96ceb1246f60a7a977fa27db10f7ba5681bddbfd/02-product-assets/app-icons/dark/128x128.png",
       "tintColor": "#007749",
       "category": "social",
       "screenshots": [
