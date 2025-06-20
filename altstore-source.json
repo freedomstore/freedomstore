@@ -235,6 +235,7 @@
       "bundleIdentifier": "com.sovranbitcoin",
       "marketplaceID": "6499554529",
       "developerName": "Sovran",
+      "beta": true,
       "subtitle": "",
       "localizedDescription": "Sovran is a Cashu wallet for sending and receiving Bitcoin with integrated Nostr functionality, enabling rich social interactions.",
       "iconURL": "https://sovran.money/ios/logo.png",
@@ -251,6 +252,15 @@
         "https://sovran.money/ios/8.png"
       ],
       "versions": [
+        {
+          "downloadURL": "https://sovran.money/ios/releases/db65e481-7f00-4782-bbd5-cf0abea5d628/",
+          "size": 10000000,
+          "version": "0.0.22",
+          "buildVersion": "1",
+          "date": "2025-06-20",
+          "localizedDescription": null,
+          "minOSVersion": "15.1"
+        },
         {
           "downloadURL": "https://sovran.money/ios/releases/0130109b-8a39-481d-8c18-2b856811bd5d/",
           "size": 10000000,
