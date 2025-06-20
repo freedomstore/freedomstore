@@ -240,6 +240,7 @@
       "iconURL": "https://sovran.money/ios/logo.png",
       "tintColor": "#c53163",
       "category": "social",
+      "beta": true,
       "screenshots": [
         "https://sovran.money/ios/1.png",
         "https://sovran.money/ios/2.png",
@@ -252,7 +253,7 @@
       ],
       "versions": [
         {
-          "downloadURL": "https://sovran.money/ios/releases/0130109b-8a39-481d-8c18-2b856811bd5d/",
+          "downloadURL": "https://sovran.money/ios/releases/db65e481-7f00-4782-bbd5-cf0abea5d628/",
           "size": 10000000,
           "version": "0.0.20",
           "buildVersion": "1",
