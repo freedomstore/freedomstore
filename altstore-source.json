@@ -292,11 +292,11 @@
       "tintColor": "#007749",
       "category": "social",
       "screenshots": [
-        "https://raw.githubusercontent.com/lnflash/flash-assets/main/04-documentation/screenshots/v0.4.0/appstore-screenshot-5.png",
-        "https://raw.githubusercontent.com/lnflash/flash-assets/main/04-documentation/screenshots/v0.4.0/appstore-screenshot-4.png",
-        "https://raw.githubusercontent.com/lnflash/flash-assets/main/04-documentation/screenshots/v0.4.0/appstore-screenshot-3.png",
+        "https://raw.githubusercontent.com/lnflash/flash-assets/main/04-documentation/screenshots/v0.4.0/appstore-screenshot-1.png",
         "https://raw.githubusercontent.com/lnflash/flash-assets/main/04-documentation/screenshots/v0.4.0/appstore-screenshot-2.png",
-        "https://raw.githubusercontent.com/lnflash/flash-assets/main/04-documentation/screenshots/v0.4.0/appstore-screenshot-1.png"
+        "https://raw.githubusercontent.com/lnflash/flash-assets/main/04-documentation/screenshots/v0.4.0/appstore-screenshot-3.png",
+        "https://raw.githubusercontent.com/lnflash/flash-assets/main/04-documentation/screenshots/v0.4.0/appstore-screenshot-4.png",
+        "https://raw.githubusercontent.com/lnflash/flash-assets/main/04-documentation/screenshots/v0.4.0/appstore-screenshot-5.png"
       ],
       "beta": false,
       "versions": [
