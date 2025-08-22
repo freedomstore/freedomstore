@@ -316,6 +316,22 @@
       "beta": true,
       "versions": [
         {
+          "version": "0.3.0",
+          "buildVersion": "15",
+          "marketingVersion": "0.3.0-beta",
+          "date": "2025-08-20",
+          "downloadURL": "https://minibits.cash/releases/ios/70359ec6-c33f-40f7-a6a6-32bcfe4cdd25/",
+          "size": 10000000,
+          "localizedDescription": "New release includes various security improvements and a new feature to enter any transaction amount in fiat currency. Now available on Freedom Store.",
+          "appPermissions": {
+            "entitlements": ["com.apple.developer.associated-domains"],
+            "privacy": {
+              "NSCameraUsageDescription": "This app requires access to the camera to scan QR codes.",
+              "NSUserNotificationsUsageDescription": "This app uses notifications to keep you updated with incoming transactions."
+            }
+          }
+        },
+        {
           "version": "0.2.2",
           "buildVersion": "13",
           "marketingVersion": "0.2.2-beta",
