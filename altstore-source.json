@@ -460,6 +460,22 @@
       "beta": true,
       "versions": [
         {
+          "version": "0.3.2",
+          "buildVersion": "17",
+          "marketingVersion": "0.3.2-beta",
+          "date": "2025-10-22",
+          "downloadURL": "https://minibits.cash/releases/ios/34e1f134-3041-4bad-ac1d-a245bc5f8783/",
+          "size": 10000000,
+          "localizedDescription": "New release packages fixes and stability improvements and an upgrade of most libraries to latest versions.",
+          "appPermissions": {
+            "entitlements": ["com.apple.developer.associated-domains"],
+            "privacy": {
+              "NSCameraUsageDescription": "This app requires access to the camera to scan QR codes.",
+              "NSUserNotificationsUsageDescription": "This app uses notifications to keep you updated with incoming transactions."
+            }
+          }
+        },
+        {
           "version": "0.3.0",
           "buildVersion": "15",
           "marketingVersion": "0.3.0-beta",
