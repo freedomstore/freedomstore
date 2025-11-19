@@ -32,13 +32,13 @@
       "beta": false,
       "versions": [
         {
-          "version": "1.37.4",
-          "buildVersion": "640",
-          "marketingVersion": "1.37.4 (640)",
-          "date": "2025-11-13",
+          "version": "1.38.0",
+          "buildVersion": "650",
+          "marketingVersion": "1.38.0 (650)",
+          "date": "2025-11-19",
           "size": 10000000,
-          "downloadURL": "https://releases.vexl.it/ios/50be4133-01e5-4f09-815c-1f6f7c58e844/",
-          "localizedDescription": "In this version, we fixed an issue where the app would display a white screen on startup and fail to load properly.",
+          "downloadURL": "https://releases.vexl.it/ios/a71fa821-f42e-40ba-b0ab-d59bf388dc0a/",
+          "localizedDescription": "In this version we introduced security updates, app optimization & bug fixes.",
           "minOSVersion": "13.4",
           "appPermissions": {
             "entitlements": ["com.apple.developer.associated-domains"],
@@ -56,13 +56,13 @@
           }
         },
         {
-          "version": "1.38.0",
-          "buildVersion": "650",
-          "marketingVersion": "1.38.0 (650)",
-          "date": "2025-11-19",
+          "version": "1.37.4",
+          "buildVersion": "640",
+          "marketingVersion": "1.37.4 (640)",
+          "date": "2025-11-13",
           "size": 10000000,
-          "downloadURL": "https://releases.vexl.it/ios/a71fa821-f42e-40ba-b0ab-d59bf388dc0a/",
-          "localizedDescription": "In this version we introduced security updates, app optimization & bug fixes.",
+          "downloadURL": "https://releases.vexl.it/ios/50be4133-01e5-4f09-815c-1f6f7c58e844/",
+          "localizedDescription": "In this version, we fixed an issue where the app would display a white screen on startup and fail to load properly.",
           "minOSVersion": "13.4",
           "appPermissions": {
             "entitlements": ["com.apple.developer.associated-domains"],
