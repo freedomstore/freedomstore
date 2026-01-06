@@ -41,9 +41,7 @@
           "localizedDescription": "In this version we introduced improvements in chat message delivery reliability and fixed bugs.",
           "minOSVersion": "13.4",
           "appPermissions": {
-            "entitlements": [
-              "com.apple.developer.associated-domains"
-            ],
+            "entitlements": ["com.apple.developer.associated-domains"],
             "privacy": {
               "NSCalendarsFullAccessUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
               "NSCalendarsUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
@@ -67,9 +65,7 @@
           "localizedDescription": "In this version we introduced security updates, app optimization & bug fixes.",
           "minOSVersion": "13.4",
           "appPermissions": {
-            "entitlements": [
-              "com.apple.developer.associated-domains"
-            ],
+            "entitlements": ["com.apple.developer.associated-domains"],
             "privacy": {
               "NSCalendarsFullAccessUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
               "NSCalendarsUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
@@ -93,9 +89,7 @@
           "localizedDescription": "In this version we introduced security updates, app optimization & bug fixes.",
           "minOSVersion": "13.4",
           "appPermissions": {
-            "entitlements": [
-              "com.apple.developer.associated-domains"
-            ],
+            "entitlements": ["com.apple.developer.associated-domains"],
             "privacy": {
               "NSCalendarsFullAccessUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
               "NSCalendarsUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
@@ -119,9 +113,7 @@
           "localizedDescription": "In this version we introduced security updates, app optimization & bug fixes.",
           "minOSVersion": "13.4",
           "appPermissions": {
-            "entitlements": [
-              "com.apple.developer.associated-domains"
-            ],
+            "entitlements": ["com.apple.developer.associated-domains"],
             "privacy": {
               "NSCalendarsFullAccessUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
               "NSCalendarsUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
@@ -145,9 +137,7 @@
           "localizedDescription": "In this version we introduced security updates, app optimization & bug fixes.",
           "minOSVersion": "13.4",
           "appPermissions": {
-            "entitlements": [
-              "com.apple.developer.associated-domains"
-            ],
+            "entitlements": ["com.apple.developer.associated-domains"],
             "privacy": {
               "NSCalendarsFullAccessUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
               "NSCalendarsUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
@@ -171,9 +161,7 @@
           "localizedDescription": "In this version, we fixed an issue where the app would display a white screen on startup and fail to load properly.",
           "minOSVersion": "13.4",
           "appPermissions": {
-            "entitlements": [
-              "com.apple.developer.associated-domains"
-            ],
+            "entitlements": ["com.apple.developer.associated-domains"],
             "privacy": {
               "NSCalendarsFullAccessUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
               "NSCalendarsUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
@@ -197,9 +185,7 @@
           "localizedDescription": "In this version, we fixed an issue where the app would display a white screen on startup and fail to load properly.",
           "minOSVersion": "13.4",
           "appPermissions": {
-            "entitlements": [
-              "com.apple.developer.associated-domains"
-            ],
+            "entitlements": ["com.apple.developer.associated-domains"],
             "privacy": {
               "NSCalendarsFullAccessUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
               "NSCalendarsUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
@@ -223,9 +209,7 @@
           "localizedDescription": "In this version we added minor usability improvements and bug fixes.",
           "minOSVersion": "13.4",
           "appPermissions": {
-            "entitlements": [
-              "com.apple.developer.associated-domains"
-            ],
+            "entitlements": ["com.apple.developer.associated-domains"],
             "privacy": {
               "NSCalendarsFullAccessUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
               "NSCalendarsUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
@@ -249,9 +233,7 @@
           "localizedDescription": "In this version we added minor usability improvements and bug fixes.",
           "minOSVersion": "13.4",
           "appPermissions": {
-            "entitlements": [
-              "com.apple.developer.associated-domains"
-            ],
+            "entitlements": ["com.apple.developer.associated-domains"],
             "privacy": {
               "NSCalendarsFullAccessUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
               "NSCalendarsUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
@@ -275,9 +257,7 @@
           "localizedDescription": "In this version we added minor usability improvements and bug fixes.",
           "minOSVersion": "13.4",
           "appPermissions": {
-            "entitlements": [
-              "com.apple.developer.associated-domains"
-            ],
+            "entitlements": ["com.apple.developer.associated-domains"],
             "privacy": {
               "NSCalendarsFullAccessUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
               "NSCalendarsUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
@@ -301,9 +281,7 @@
           "localizedDescription": "In this version we added minor usability improvements and bug fixes.",
           "minOSVersion": "13.4",
           "appPermissions": {
-            "entitlements": [
-              "com.apple.developer.associated-domains"
-            ],
+            "entitlements": ["com.apple.developer.associated-domains"],
             "privacy": {
               "NSCalendarsFullAccessUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
               "NSCalendarsUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
@@ -327,9 +305,7 @@
           "localizedDescription": "In this version we added minor usability improvements and bug fixes.",
           "minOSVersion": "13.4",
           "appPermissions": {
-            "entitlements": [
-              "com.apple.developer.associated-domains"
-            ],
+            "entitlements": ["com.apple.developer.associated-domains"],
             "privacy": {
               "NSCalendarsFullAccessUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
               "NSCalendarsUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
@@ -353,9 +329,7 @@
           "localizedDescription": "In this version we added minor usability improvements and bug fixes.",
           "minOSVersion": "13.4",
           "appPermissions": {
-            "entitlements": [
-              "com.apple.developer.associated-domains"
-            ],
+            "entitlements": ["com.apple.developer.associated-domains"],
             "privacy": {
               "NSCalendarsFullAccessUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
               "NSCalendarsUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
@@ -379,9 +353,7 @@
           "localizedDescription": "Fixed bug that prevented notifications to be displayed when app was in the foreground.",
           "minOSVersion": "13.4",
           "appPermissions": {
-            "entitlements": [
-              "com.apple.developer.associated-domains"
-            ],
+            "entitlements": ["com.apple.developer.associated-domains"],
             "privacy": {
               "NSCalendarsFullAccessUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
               "NSCalendarsUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
@@ -405,9 +377,7 @@
           "localizedDescription": "In this version we added a few stability improvements and small UX/UI fixes and improvements.",
           "minOSVersion": "13.4",
           "appPermissions": {
-            "entitlements": [
-              "com.apple.developer.associated-domains"
-            ],
+            "entitlements": ["com.apple.developer.associated-domains"],
             "privacy": {
               "NSCalendarsFullAccessUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
               "NSCalendarsUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
@@ -431,9 +401,7 @@
           "localizedDescription": "In this version we introduced a new bugfixes and UI/UX improvements.",
           "minOSVersion": "13.4",
           "appPermissions": {
-            "entitlements": [
-              "com.apple.developer.associated-domains"
-            ],
+            "entitlements": ["com.apple.developer.associated-domains"],
             "privacy": {
               "NSCalendarsFullAccessUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
               "NSCalendarsUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
@@ -457,9 +425,7 @@
           "localizedDescription": "In this version we introduced a new bugfixes and UI/UX improvements.",
           "minOSVersion": "13.4",
           "appPermissions": {
-            "entitlements": [
-              "com.apple.developer.associated-domains"
-            ],
+            "entitlements": ["com.apple.developer.associated-domains"],
             "privacy": {
               "NSCalendarsFullAccessUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
               "NSCalendarsUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
@@ -483,9 +449,7 @@
           "localizedDescription": "In this version we introduced a new bugfixes and UI/UX improvements.",
           "minOSVersion": "13.4",
           "appPermissions": {
-            "entitlements": [
-              "com.apple.developer.associated-domains"
-            ],
+            "entitlements": ["com.apple.developer.associated-domains"],
             "privacy": {
               "NSCalendarsFullAccessUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
               "NSCalendarsUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
@@ -509,9 +473,7 @@
           "localizedDescription": "In this version we introduced a new bugfixes and UI/UX improvements.",
           "minOSVersion": "13.4",
           "appPermissions": {
-            "entitlements": [
-              "com.apple.developer.associated-domains"
-            ],
+            "entitlements": ["com.apple.developer.associated-domains"],
             "privacy": {
               "NSCalendarsFullAccessUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
               "NSCalendarsUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
@@ -535,9 +497,7 @@
           "localizedDescription": "In this version we introduced a new bugfixes and UI/UX improvements.",
           "minOSVersion": "13.4",
           "appPermissions": {
-            "entitlements": [
-              "com.apple.developer.associated-domains"
-            ],
+            "entitlements": ["com.apple.developer.associated-domains"],
             "privacy": {
               "NSCalendarsFullAccessUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
               "NSCalendarsUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
@@ -561,9 +521,7 @@
           "localizedDescription": "In this version we fixed bug with sending chat notifications when no new message received.  We also introduced new bugfixes and UI/UX improvements.",
           "minOSVersion": "13.4",
           "appPermissions": {
-            "entitlements": [
-              "com.apple.developer.associated-domains"
-            ],
+            "entitlements": ["com.apple.developer.associated-domains"],
             "privacy": {
               "NSCalendarsFullAccessUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
               "NSCalendarsUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
@@ -586,9 +544,7 @@
           "size": 10000000,
           "minOSVersion": "13.4",
           "appPermissions": {
-            "entitlements": [
-              "com.apple.developer.associated-domains"
-            ],
+            "entitlements": ["com.apple.developer.associated-domains"],
             "privacy": {
               "NSCalendarsFullAccessUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
               "NSCalendarsUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
@@ -632,9 +588,7 @@
           "size": 10000000,
           "localizedDescription": "New release packages fixes and stability improvements and an upgrade of most libraries to latest versions.",
           "appPermissions": {
-            "entitlements": [
-              "com.apple.developer.associated-domains"
-            ],
+            "entitlements": ["com.apple.developer.associated-domains"],
             "privacy": {
               "NSCameraUsageDescription": "This app requires access to the camera to scan QR codes.",
               "NSUserNotificationsUsageDescription": "This app uses notifications to keep you updated with incoming transactions."
@@ -650,9 +604,7 @@
           "size": 10000000,
           "localizedDescription": "New release includes various security improvements and a new feature to enter any transaction amount in fiat currency. Now available on Freedom Store.",
           "appPermissions": {
-            "entitlements": [
-              "com.apple.developer.associated-domains"
-            ],
+            "entitlements": ["com.apple.developer.associated-domains"],
             "privacy": {
               "NSCameraUsageDescription": "This app requires access to the camera to scan QR codes.",
               "NSUserNotificationsUsageDescription": "This app uses notifications to keep you updated with incoming transactions."
@@ -668,9 +620,7 @@
           "size": 10000000,
           "localizedDescription": "This is Minibits' first iOS version available on Freedom Store.",
           "appPermissions": {
-            "entitlements": [
-              "com.apple.developer.associated-domains"
-            ],
+            "entitlements": ["com.apple.developer.associated-domains"],
             "privacy": {
               "NSCameraUsageDescription": "This app requires access to the camera to scan QR codes.",
               "NSUserNotificationsUsageDescription": "This app uses notifications to keep you updated with incoming transactions."
@@ -711,9 +661,7 @@
           "size": 10000000,
           "localizedDescription": "Bitkit is a simple, yet powerful self-custodial wallet, powering Bitcoin payments to anyone, anywhere, any time.",
           "appPermissions": {
-            "entitlements": [
-              "com.apple.developer.associated-domains"
-            ],
+            "entitlements": ["com.apple.developer.associated-domains"],
             "privacy": {
               "NSCameraUsageDescription": "The camera is used to scan qrcodes in order to import or send Bitcoin and assets.",
               "NSFaceIDUsageDescription": "Enabling Face ID allows you quick and secure access to your account.",
