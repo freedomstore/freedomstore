@@ -460,6 +460,22 @@
       "beta": true,
       "versions": [
         {
+          "version": "0.3.4",
+          "buildVersion": "17",
+          "marketingVersion": "0.3.4-beta",
+          "date": "2026-02-10",
+          "downloadURL": "https://minibits.cash/releases/ios/a5d266fc-795c-4330-b003-09101d100f1e/",
+          "size": 10000000,
+          "localizedDescription": "This release adds NFC support and includes many other fixes and improvements.",
+          "appPermissions": {
+            "entitlements": ["com.apple.developer.associated-domains"],
+            "privacy": {
+              "NSCameraUsageDescription": "This app requires access to the camera to scan QR codes.",
+              "NSUserNotificationsUsageDescription": "This app uses notifications to keep you updated with incoming transactions."
+            }
+          }
+        },
+        {
           "version": "0.3.2",
           "buildVersion": "17",
           "marketingVersion": "0.3.2-beta",
