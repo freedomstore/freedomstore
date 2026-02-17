@@ -723,17 +723,26 @@
       "tintColor": "#c53163",
       "category": "social",
       "screenshots": [
-        "https://sovran.money/ios/APP_IPHONE_65/fa2bb206-f2eb-47dc-992a-edffee1f40c2.png",
-        "https://sovran.money/ios/APP_IPHONE_65/ad2a16be-ecdc-4cb1-a272-e43d2b61a3c3.png",
-        "https://sovran.money/ios/APP_IPHONE_65/1b441718-8335-4ce2-bf19-d9e3db8605bb.png",
-        "https://sovran.money/ios/APP_IPHONE_65/2669f191-c713-4377-9f32-d445cae21202.png",
-        "https://sovran.money/ios/APP_IPHONE_65/4066caa7-b3b6-4326-bb72-c1a1bfd83cf2.png",
-        "https://sovran.money/ios/APP_IPHONE_65/5f0892e0-b3a0-4975-b3e4-bfd45a57e327.png",
-        "https://sovran.money/ios/APP_IPHONE_65/8187c7e0-e567-4ecf-804a-32632782dca7.png",
-        "https://sovran.money/ios/APP_IPHONE_65/9fa09c13-0d17-4913-8a9c-551ad07d7ddc.png",
-        "https://sovran.money/ios/APP_IPHONE_65/71951edc-b809-4970-9cac-728ac4912dea.png"
+        "https://sovran.money/ios/APP_IPHONE_65/5523b114-aab1-4705-a41e-e96e80e8955b.png",
+        "https://sovran.money/ios/APP_IPHONE_65/82b7d16c-f777-44c4-a685-822bd92a7fad.png",
+        "https://sovran.money/ios/APP_IPHONE_65/05c3b1a7-4588-4911-a8a1-1284f4e523d5.png",
+        "https://sovran.money/ios/APP_IPHONE_65/14868945-49b4-4010-82f5-243f211eacd3.png",
+        "https://sovran.money/ios/APP_IPHONE_65/3b58e97d-b67a-46a6-9545-c847730884ea.png",
+        "https://sovran.money/ios/APP_IPHONE_65/30bcb9fc-80d1-4007-9486-4a677d3f5e97.png",
+        "https://sovran.money/ios/APP_IPHONE_65/9479c0be-3824-49c9-a3d8-f49a25f50e6a.png",
+        "https://sovran.money/ios/APP_IPHONE_65/69d256c2-6ccf-4b2a-af0b-b854c52fa14a.png",
+        "https://sovran.money/ios/APP_IPHONE_65/cde7664f-5e9c-4eb5-bb15-c05fa5cac81f.png"
       ],
       "versions": [
+        {
+          "downloadURL": "https://sovran.money/ios/releases/955b20d5-8417-4a3d-88f6-05d72eec18aa/",
+          "size": 10000000,
+          "version": "0.0.58",
+          "buildVersion": "52",
+          "date": "2026-02-17",
+          "localizedDescription": null,
+          "minOSVersion": "15.1"
+        },
         {
           "downloadURL": "https://sovran.money/ios/releases/955b20d5-8417-4a3d-88f6-05d72eec18aa/",
           "size": 10000000,
