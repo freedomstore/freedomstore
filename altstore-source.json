@@ -632,7 +632,7 @@
           "buildVersion": "18",
           "marketingVersion": "0.3.4-beta",
           "date": "2026-02-10",
-          "downloadURL": "https://minibits.cash/releases/ios/a5d266fc-795c-4330-b003-09101d100f1e/",
+          "downloadURL": "https://releases.minibits.cash/ios/a5d266fc-795c-4330-b003-09101d100f1e/",
           "size": 10000000,
           "localizedDescription": "This release adds NFC support and includes many other fixes and improvements.",
           "appPermissions": {
@@ -648,7 +648,7 @@
           "buildVersion": "17",
           "marketingVersion": "0.3.2-beta",
           "date": "2025-10-22",
-          "downloadURL": "https://minibits.cash/releases/ios/34e1f134-3041-4bad-ac1d-a245bc5f8783/",
+          "downloadURL": "https://releases.minibits.cash/ios/34e1f134-3041-4bad-ac1d-a245bc5f8783/",
           "size": 10000000,
           "localizedDescription": "New release packages fixes and stability improvements and an upgrade of most libraries to latest versions.",
           "appPermissions": {
@@ -664,7 +664,7 @@
           "buildVersion": "15",
           "marketingVersion": "0.3.0-beta",
           "date": "2025-08-20",
-          "downloadURL": "https://minibits.cash/releases/ios/70359ec6-c33f-40f7-a6a6-32bcfe4cdd25/",
+          "downloadURL": "https://releases.minibits.cash/ios/70359ec6-c33f-40f7-a6a6-32bcfe4cdd25/",
           "size": 10000000,
           "localizedDescription": "New release includes various security improvements and a new feature to enter any transaction amount in fiat currency. Now available on Freedom Store.",
           "appPermissions": {
@@ -680,7 +680,7 @@
           "buildVersion": "13",
           "marketingVersion": "0.2.2-beta",
           "date": "2025-06-01",
-          "downloadURL": "https://minibits.cash/releases/ios/3639b0f9-a6f2-49d9-8d4e-37f5355fbc8c/",
+          "downloadURL": "https://releases.minibits.cash/ios/3639b0f9-a6f2-49d9-8d4e-37f5355fbc8c/",
           "size": 10000000,
           "localizedDescription": "This is Minibits' first iOS version available on Freedom Store.",
           "appPermissions": {
