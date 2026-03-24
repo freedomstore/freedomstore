@@ -614,19 +614,31 @@
       "marketplaceID": "6744454479",
       "developerName": "Minibits",
       "website": "https://minibits.cash",
-      "localizedDescription": "Minibits is an ecash and Lightning wallet exploring how ₿-backed ecash can enable instant, cheap, and private value transfer.",
-      "iconURL": "https://minibits.cash/icons/minibits-512.png",
+      "localizedDescription": "Minibits is a Bitcoin Lightning and ecash wallet that provides instant, low-cost, and private value transfers — even when the payer is offline.",
+      "iconURL": "https://minibits.cash/icon-512.png",
       "tintColor": "#254EDB",
       "category": "other",
       "screenshots": [
-        "https://minibits.cash/screenshots/ios/01.png",
-        "https://minibits.cash/screenshots/ios/02.png",
-        "https://minibits.cash/screenshots/ios/03.png",
-        "https://minibits.cash/screenshots/ios/04.png",
-        "https://minibits.cash/screenshots/ios/05.png"
+        "https://minibits.cash/screenshots/top_banner_minibits.jpg"
       ],
       "beta": true,
       "versions": [
+        {
+          "version": "0.4.0",
+          "buildVersion": "19",
+          "marketingVersion": "0.4.0-beta",
+          "date": "2026-03-24",
+          "downloadURL": "https://minibits.cash/releases/ios/12fc0ced-a1a0-42a9-a35a-9f7ac37e6198/",
+          "size": 10000000,
+          "localizedDescription": "New native version with many fixes and UX improvements. New feature to optimize ecash denominations for big wallets. Support for PIN lock if device does not use biometric auth.",
+          "appPermissions": {
+            "entitlements": ["com.apple.developer.associated-domains"],
+            "privacy": {
+              "NSCameraUsageDescription": "This app requires access to the camera to scan QR codes.",
+              "NSUserNotificationsUsageDescription": "This app uses notifications to keep you updated with incoming transactions."
+            }
+          }
+        },
         {
           "version": "0.3.4",
           "buildVersion": "18",
