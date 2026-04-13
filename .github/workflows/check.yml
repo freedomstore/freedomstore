@@ -1,0 +1,13 @@
+name: Check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check-urls:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+      - run: node check.mjs
