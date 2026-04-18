@@ -634,7 +634,7 @@
           "date": "2026-02-10",
           "downloadURL": "https://releases.minibits.cash/ios/1e52df13-8ef1-4e22-b43c-22e983a5085e/",
           "size": 10000000,
-          "localizedDescription": "Device PIN support, many bug fixes and performance improvements.",
+          "localizedDescription": "Device PIN support and many bug fixes and performance improvements.",
           "appPermissions": {
             "entitlements": ["com.apple.developer.associated-domains"],
             "privacy": {
