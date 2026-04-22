@@ -1,3 +1,5 @@
+name: "Check and Deploy"
+
 permissions:
   id-token: write # for fetching the OIDC token
   contents: read # for actions/checkout
