@@ -615,15 +615,11 @@
       "developerName": "Minibits",
       "website": "https://minibits.cash",
       "localizedDescription": "Minibits is an ecash and Lightning wallet exploring how ₿-backed ecash can enable instant, cheap, and private value transfer.",
-      "iconURL": "https://minibits.cash/icons/minibits-512.png",
+      "iconURL": "https://minibits.cash/icon-512.png",
       "tintColor": "#254EDB",
       "category": "other",
       "screenshots": [
-        "https://minibits.cash/screenshots/ios/01.png",
-        "https://minibits.cash/screenshots/ios/02.png",
-        "https://minibits.cash/screenshots/ios/03.png",
-        "https://minibits.cash/screenshots/ios/04.png",
-        "https://minibits.cash/screenshots/ios/05.png"
+        "https://minibits.cash/screenshots/top_banner_minibits.jpg"
       ],
       "beta": true,
       "versions": [
