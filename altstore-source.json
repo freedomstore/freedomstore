@@ -759,16 +759,25 @@
       "tintColor": "#c53163",
       "category": "social",
       "screenshots": [
-        "https://sovran.money/ios/APP_IPHONE_65/2d3cb31f-2386-4d75-81da-f4bf017059ae.png",
-        "https://sovran.money/ios/APP_IPHONE_65/5df79b89-926b-4a0d-9d6c-b9acad67855d.png",
-        "https://sovran.money/ios/APP_IPHONE_65/7fc03196-9898-4ea2-b95e-be3876657430.png",
-        "https://sovran.money/ios/APP_IPHONE_65/2963947c-1818-44ec-a089-dce7f4b42014.png",
-        "https://sovran.money/ios/APP_IPHONE_65/5f4ad991-e13a-4e87-9c4a-f2f0baa450e2.png",
-        "https://sovran.money/ios/APP_IPHONE_65/61c7fc05-a8c7-4aa4-8ca7-21ddb989a86a.png",
-        "https://sovran.money/ios/APP_IPHONE_65/d46a3f53-8dd1-408f-b20a-a72e4bedad44.png",
-        "https://sovran.money/ios/APP_IPHONE_65/f277e00c-3d13-41ee-9f34-10bb121b0918.png"
+        "https://sovran.money/ios/APP_IPHONE_65/725948f2-62e2-4497-a27b-2c8bee0e5252.png",
+        "https://sovran.money/ios/APP_IPHONE_65/0a516030-d5be-4b34-9a43-2a28aa290dfd.png",
+        "https://sovran.money/ios/APP_IPHONE_65/56b9943f-7d50-42fe-aeaf-b8fbde6cc0d7.png",
+        "https://sovran.money/ios/APP_IPHONE_65/1da5f26b-9a6e-4a1a-a2b9-a90363936832.png",
+        "https://sovran.money/ios/APP_IPHONE_65/ae65624c-8a9b-49e3-a116-c923b6d6463c.png",
+        "https://sovran.money/ios/APP_IPHONE_65/e69f41ed-431a-404b-b5cf-7186732a9699.png",
+        "https://sovran.money/ios/APP_IPHONE_65/39999d44-63f7-46c3-a22f-3913d3df9aaf.png",
+        "https://sovran.money/ios/APP_IPHONE_65/87c2888b-e08f-479a-8bed-a80f5eaf76f7.png"
       ],
       "versions": [
+        {
+          "downloadURL": "https://sovran.money/ios/releases/3b88fe9e-16df-4cf0-baee-48e223beebd7/",
+          "size": 10000000,
+          "version": "0.1.0",
+          "buildVersion": "169",
+          "date": "2026-06-09",
+          "localizedDescription": null,
+          "minOSVersion": "16.4"
+        },
         {
           "downloadURL": "https://sovran.money/ios/releases/0605a606-b801-4075-a363-4ed4f37c6332/",
           "size": 10000000,
