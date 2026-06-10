@@ -32,6 +32,30 @@
       "beta": false,
       "versions": [
         {
+          "version": "1.43.3",
+          "buildVersion": "770",
+          "marketingVersion": "1.43.3 (770)",
+          "date": "2026-06-10",
+          "size": 10000000,
+          "downloadURL": "https://releases.vexl.it/ios/54b0d42e-4868-4c90-8b8b-7666adea6ba8/",
+          "localizedDescription": "In this version we introduced improvements in network stability and notifications delivery.",
+          "minOSVersion": "13.4",
+          "appPermissions": {
+            "entitlements": ["com.apple.developer.associated-domains"],
+            "privacy": {
+              "NSCalendarsFullAccessUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
+              "NSCalendarsUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
+              "NSCameraUsageDescription": "Vexl wants to access your camera in order to take a photo for your avatar or scan QR code to add other users to your Vexl network.",
+              "NSContactsUsageDescription": "Vexl needs access to your contacts to make your offers visible for them in a secure way. Phone number of contacts you select will be encrypted and uploaded to the server.",
+              "NSFaceIDUsageDescription": "Vexl needs access to FaceID to secure your account and make it easier to log in.",
+              "NSLocationWhenInUseUsageDescription": "Vexl needs access to you location to show your position on the map. Location will never be share with anyone (even ourselves).",
+              "NSPhotoLibraryUsageDescription": "Vexl wants to access your photos in order to select a picture for your avatar.",
+              "NSRemindersFullAccessUsageDescription": "Vexl needs access to your reminders for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
+              "NSRemindersUsageDescription": "Vexl needs access to your reminders for scheduling trade meetings. Your data is kept private and only used for coordinating trades."
+            }
+          }
+        },
+        {
           "version": "1.40.2",
           "buildVersion": "701",
           "marketingVersion": "1.40.2 (701)",
