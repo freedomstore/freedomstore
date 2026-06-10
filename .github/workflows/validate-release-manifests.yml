@@ -79,20 +79,27 @@ jobs:
             });
 
             if (existingComment) {
-              await github.rest.issues.updateComment({
-                owner,
-                repo,
-                comment_id: existingComment.id,
-                body,
-              });
-            } else {
-              await github.rest.issues.createComment({
-                owner,
-                repo,
-                issue_number,
-                body,
-              });
+              try {
+                await github.rest.issues.updateComment({
+                  owner,
+                  repo,
+                  comment_id: existingComment.id,
+                  body,
+                });
+                return;
+              } catch (error) {
+                core.warning(
+                  `Could not update existing manifest check comment ${existingComment.id}: ${error.status ?? "unknown"} ${error.message}. Creating a new comment instead.`,
+                );
+              }
             }
+
+            await github.rest.issues.createComment({
+              owner,
+              repo,
+              issue_number,
+              body,
+            });
 
       - name: Fail on manifest validation errors
         if: always() && steps.validate.outcome == 'failure'
