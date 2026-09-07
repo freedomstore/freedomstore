@@ -32,6 +32,30 @@
       "beta": false,
       "versions": [
         {
+          "version": "26.9.2",
+          "buildVersion": "260900200",
+          "marketingVersion": "26.9.2 (260900200)",
+          "date": "2026-09-07",
+          "size": 29473830,
+          "downloadURL": "https://releases.vexl.it/ios/4989fe92-d930-44ed-ab00-a051e4487578/",
+          "localizedDescription": "- See your offer's reach more clearly, with corrected club counts.\n- Import large contact backups more smoothly, with better duplicate detection.\n- Get a warning before discarding unsent trade checklist changes.\n- Dates, maps and notifications now follow your chosen app language more consistently.\n- Fixes for light and dark mode, marketplace scrolling and offer publishing.\n- Follow account deletion step by step with a new progress display.",
+          "minOSVersion": "16.4",
+          "appPermissions": {
+            "entitlements": ["com.apple.developer.associated-domains"],
+            "privacy": {
+              "NSCalendarsFullAccessUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
+              "NSCalendarsUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
+              "NSCameraUsageDescription": "Vexl wants to access your camera in order to take a photo for your avatar or scan QR code to add other users to your Vexl network.",
+              "NSContactsUsageDescription": "Vexl needs access to your contacts to make your offers visible for them in a secure way. Phone number of contacts you select will be encrypted and uploaded to the server.",
+              "NSFaceIDUsageDescription": "Vexl needs access to FaceID to secure your account and make it easier to log in.",
+              "NSLocationWhenInUseUsageDescription": "Vexl needs access to you location to show your position on the map. Location will never be share with anyone (even ourselves).",
+              "NSPhotoLibraryUsageDescription": "Vexl wants to access your photos in order to select a picture for your avatar.",
+              "NSRemindersFullAccessUsageDescription": "Vexl needs access to your reminders for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
+              "NSRemindersUsageDescription": "Vexl needs access to your reminders for scheduling trade meetings. Your data is kept private and only used for coordinating trades."
+            }
+          }
+        },
+        {
           "version": "26.8.0",
           "buildVersion": "260800000",
           "marketingVersion": "26.8.0 (260800000)",
