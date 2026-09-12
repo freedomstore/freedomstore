@@ -975,16 +975,25 @@
       "tintColor": "#c53163",
       "category": "social",
       "screenshots": [
-        "https://sovran.money/ios/APP_IPHONE_65/725948f2-62e2-4497-a27b-2c8bee0e5252.png",
-        "https://sovran.money/ios/APP_IPHONE_65/0a516030-d5be-4b34-9a43-2a28aa290dfd.png",
-        "https://sovran.money/ios/APP_IPHONE_65/56b9943f-7d50-42fe-aeaf-b8fbde6cc0d7.png",
-        "https://sovran.money/ios/APP_IPHONE_65/1da5f26b-9a6e-4a1a-a2b9-a90363936832.png",
-        "https://sovran.money/ios/APP_IPHONE_65/ae65624c-8a9b-49e3-a116-c923b6d6463c.png",
-        "https://sovran.money/ios/APP_IPHONE_65/e69f41ed-431a-404b-b5cf-7186732a9699.png",
-        "https://sovran.money/ios/APP_IPHONE_65/39999d44-63f7-46c3-a22f-3913d3df9aaf.png",
-        "https://sovran.money/ios/APP_IPHONE_65/87c2888b-e08f-479a-8bed-a80f5eaf76f7.png"
+        "https://sovran.money/ios/media/11d79f15862e845c00da3345b495ba9af9c6016fe357e30d5849fb157fbf2cb6.png",
+        "https://sovran.money/ios/media/4dfb68874e3802cc2140cf5f94f51c87cfe8deb981f05c63d4098a86d50dbbf8.png",
+        "https://sovran.money/ios/media/eafbf42b2eed250d190411f3ff18c48ef3545f722f7ae5880c4f33ff3d21dba9.png",
+        "https://sovran.money/ios/media/6f83c056a69f7f0bc6d1a4f7c87d375b0cfb1d05412bc1fdefef202f90f0e9ab.png",
+        "https://sovran.money/ios/media/987868646de6627870f1009e2d20a0990cd965350409973f5ebd6d664f79f169.png",
+        "https://sovran.money/ios/media/5a853564de900ad4976e451fe28ec842f1ff3663f0cf029cbddf0f219ae9a30a.png",
+        "https://sovran.money/ios/media/3168210b6b73722e8d1ca90146bbe136b3935cf1b3049066dd4a5ed1f20465f8.png",
+        "https://sovran.money/ios/media/226cb22c30d2849f427619f492ba286aad42811cf557e45990e2a4b1e8dcf756.png"
       ],
       "versions": [
+        {
+          "version": "0.1.3",
+          "buildVersion": "176",
+          "date": "2026-09-12",
+          "downloadURL": "https://sovran.money/ios/releases/097f7b82-7aac-4574-a594-3e7fcaecc652/",
+          "size": 862130660,
+          "minOSVersion": "16.4",
+          "localizedDescription": "Sovran 0.1.3. Improvements and fixes."
+        },
         {
           "downloadURL": "https://sovran.money/ios/releases/3b88fe9e-16df-4cf0-baee-48e223beebd7/",
           "size": 10000000,
