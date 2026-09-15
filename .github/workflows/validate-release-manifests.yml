@@ -10,12 +10,12 @@ on:
     paths:
       - altstore-source.json
       - .github/scripts/validate-release-manifests.mjs
+      - .github/scripts/comment-release-manifests*
+      - .github/workflows/comment-release-manifests.yml
       - .github/workflows/validate-release-manifests.yml
 
 permissions:
   contents: read
-  issues: write
-  pull-requests: write
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.event.pull_request.number }}
@@ -38,6 +38,9 @@ jobs:
         with:
           node-version: 24
 
+      - name: Test release comments
+        run: node --test .github/scripts/comment-release-manifests.test.cjs
+
       - name: Validate new release manifests
         id: validate
         continue-on-error: true
@@ -47,59 +50,14 @@ jobs:
             --base-ref "${{ github.event.pull_request.base.sha }}" \
             --comment-file manifest-check-comment.md
 
-      - name: Comment on pull request
+      - name: Upload validation report
         if: always()
-        uses: actions/github-script@v8
+        uses: actions/upload-artifact@v7
         with:
-          script: |
-            const fs = require("fs");
-            const marker = "<!-- freedomstore-release-manifest-check -->";
-            const fallbackBody = [
-              marker,
-              "### Freedom Store release manifest check",
-              "",
-              "Result: failed.",
-              "",
-              "The validator did not produce a comment file. Check the workflow logs.",
-            ].join("\n");
-            const body = fs.existsSync("manifest-check-comment.md")
-              ? fs.readFileSync("manifest-check-comment.md", "utf8")
-              : fallbackBody;
-
-            const { owner, repo } = context.repo;
-            const issue_number = context.issue.number;
-            const comments = await github.paginate(github.rest.issues.listComments, {
-              owner,
-              repo,
-              issue_number,
-              per_page: 100,
-            });
-            const existingComment = comments.find((comment) => {
-              return comment.user?.type === "Bot" && comment.body?.includes(marker);
-            });
-
-            if (existingComment) {
-              try {
-                await github.rest.issues.updateComment({
-                  owner,
-                  repo,
-                  comment_id: existingComment.id,
-                  body,
-                });
-                return;
-              } catch (error) {
-                core.warning(
-                  `Could not update existing manifest check comment ${existingComment.id}: ${error.status ?? "unknown"} ${error.message}. Creating a new comment instead.`,
-                );
-              }
-            }
-
-            await github.rest.issues.createComment({
-              owner,
-              repo,
-              issue_number,
-              body,
-            });
+          name: release-manifest-report-${{ github.run_attempt }}
+          path: manifest-check-comment.md
+          if-no-files-found: warn
+          retention-days: 7
 
       - name: Fail on manifest validation errors
         if: always() && steps.validate.outcome == 'failure'

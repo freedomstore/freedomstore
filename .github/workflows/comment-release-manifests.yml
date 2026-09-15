@@ -1,0 +1,62 @@
+name: "Comment on Release Manifests"
+
+on:
+  workflow_run:
+    workflows: ["Validate Release Manifests"]
+    types: [completed]
+
+permissions:
+  contents: read
+  actions: read
+  pull-requests: write
+
+concurrency:
+  group: release-manifest-comment-${{ github.event.workflow_run.head_repository.id }}-${{ github.event.workflow_run.head_branch }}
+  cancel-in-progress: false
+
+jobs:
+  comment:
+    if: >-
+      github.event.workflow_run.event == 'pull_request' &&
+      contains(fromJSON('["success", "failure"]'), github.event.workflow_run.conclusion)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout trusted comment script
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+
+      - name: Find pull request and report
+        id: report
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const { findReport } = require('./.github/scripts/comment-release-manifests.cjs');
+            await findReport({ github, context, core });
+
+      - name: Download validation report
+        if: steps.report.outputs.artifact-id != ''
+        uses: actions/download-artifact@v8
+        with:
+          artifact-ids: ${{ steps.report.outputs.artifact-id }}
+          merge-multiple: true
+          path: ${{ runner.temp }}/release-manifest-report
+          github-token: ${{ github.token }}
+          run-id: ${{ github.event.workflow_run.id }}
+
+      - name: Comment on pull request
+        if: steps.report.outputs.pull-request != ''
+        uses: actions/github-script@v8
+        env:
+          PULL_REQUEST: ${{ steps.report.outputs.pull-request }}
+          REPORT_PATH: ${{ runner.temp }}/release-manifest-report/manifest-check-comment.md
+          HAS_REPORT: ${{ steps.report.outputs.artifact-id != '' }}
+        with:
+          script: |
+            const { commentOnReport } = require('./.github/scripts/comment-release-manifests.cjs');
+            await commentOnReport({
+              github, context, core,
+              pullRequestNumber: Number(process.env.PULL_REQUEST),
+              reportPath: process.env.HAS_REPORT === 'true' ? process.env.REPORT_PATH : undefined,
+            });
