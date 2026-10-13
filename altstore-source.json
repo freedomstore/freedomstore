@@ -864,6 +864,24 @@
       "beta": true,
       "versions": [
         {
+          "version": "0.4.5",
+          "buildVersion": "26",
+          "marketingVersion": "0.4.5-beta",
+          "date": "2026-10-13",
+          "downloadURL": "https://releases.minibits.cash/ios/8e7a4223-9bb5-4fbe-9453-5ed4888d0067/",
+          "size": 10000000,
+          "localizedDescription": "New native iOS version of Minibits with variety of new features and stability improvements.",
+          "appPermissions": {
+            "entitlements": [
+              "com.apple.developer.associated-domains"
+            ],
+            "privacy": {
+              "NSCameraUsageDescription": "This app requires access to the camera to scan QR codes.",
+              "NSUserNotificationsUsageDescription": "This app uses notifications to keep you updated with incoming transactions."
+            }
+          }
+        },
+        {
           "version": "0.4.2",
           "buildVersion": "22",
           "marketingVersion": "0.4.2-beta",
