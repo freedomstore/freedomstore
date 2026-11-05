@@ -32,6 +32,30 @@
       "beta": false,
       "versions": [
         {
+          "version": "26.11.0",
+          "buildVersion": "261100000",
+          "marketingVersion": "26.11.0 (261100000)",
+          "date": "2026-11-05",
+          "size": 30703612,
+          "downloadURL": "https://releases.vexl.it/ios/8729c097-3577-476b-a6a0-c30e46bb414c/",
+          "localizedDescription": "What's new in 26.11.0\n\nReact to messages\n\u2022 Long-press a message and react with \u2764\ufe0f \ud83d\udc4d \ud83d\udc4e \ud83d\ude02 \ud83d\ude2e \ud83d\ude22.\n\u2022 You get a notification when someone reacts to your message.\n\u2022 Reactions are end-to-end encrypted. Vexl can't see who reacted or with what.\n\u2022 Both of you need Vexl 26.11.0 or newer.\n\nSmoother chats\n\u2022 Messages move with the keyboard, and you can swipe the keyboard away.\n\u2022 Scrolling keeps its momentum and no longer jumps.\n\u2022 The new long-press menu no longer clashes with swipe to reply.\n\u2022 The keyboard closes when you open or leave a chat.\n\u2022 Fixed the chat jumping while you type a long message.\n\nCommon friends\n\u2022 The common friends screen opens full screen.\n\u2022 It explains how you're connected to the other person. You can be direct friends, friends of friends, or members of the same club.\n\nYour reach\n\u2022 Tap Small pool, Lake or Ocean to see what your reach is made of.\n\u2022 If you have active offers, Vexl asks before you remove all your contacts. Without contacts, those offers won't reach anyone in your network.\n\nDonations\n\u2022 Donations are split into In progress, Paid and Unsuccessful.\n\u2022 The Donate button floats over the list.\n\u2022 You can delete a donation from your phone.\n\nPrivacy\n\u2022 Your phone's push token is no longer shared with our contact service.\n\u2022 The app deletes old notification keys it no longer uses.\n\u2022 Our servers no longer log IP addresses or contact hashes.\n\nFixes\n\u2022 Offers keep their club and friend sources after a refresh.\n\u2022 Offers update correctly after you remove all your contacts.\n\u2022 Notifications you've already seen no longer come back after a restart.\n\u2022 Switching tabs in contact preferences is smoother.",
+          "minOSVersion": "16.4",
+          "appPermissions": {
+            "entitlements": ["com.apple.developer.associated-domains"],
+            "privacy": {
+              "NSCalendarsFullAccessUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
+              "NSCalendarsUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
+              "NSCameraUsageDescription": "Vexl wants to access your camera in order to take a photo for your avatar or scan QR code to add other users to your Vexl network.",
+              "NSContactsUsageDescription": "Vexl needs access to your contacts to make your offers visible for them in a secure way. Phone number of contacts you select will be encrypted and uploaded to the server.",
+              "NSFaceIDUsageDescription": "Vexl needs access to FaceID to secure your account and make it easier to log in.",
+              "NSLocationWhenInUseUsageDescription": "Vexl needs access to you location to show your position on the map. Location will never be share with anyone (even ourselves).",
+              "NSPhotoLibraryUsageDescription": "Vexl wants to access your photos in order to select a picture for your avatar.",
+              "NSRemindersFullAccessUsageDescription": "Vexl needs access to your reminders for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
+              "NSRemindersUsageDescription": "Vexl needs access to your reminders for scheduling trade meetings. Your data is kept private and only used for coordinating trades."
+            }
+          }
+        },
+        {
           "version": "26.9.5",
           "buildVersion": "260900500",
           "marketingVersion": "26.9.5 (260900500)",
