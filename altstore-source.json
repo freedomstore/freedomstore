@@ -32,6 +32,30 @@
       "beta": false,
       "versions": [
         {
+          "version": "26.11.2",
+          "buildVersion": "261100202",
+          "marketingVersion": "26.11.2 (261100202)",
+          "date": "2026-11-12",
+          "size": 30855836,
+          "downloadURL": "https://releases.vexl.it/ios/ce1f852e-5bb4-4440-808e-9864777220d4/",
+          "localizedDescription": "What's new in 26.11.2\n\nPhotos in chat\n\u2022 Tap + in the message field and pick Camera or Gallery.\n\u2022 Send up to 10 photos at once. You can remove any of them before sending.\n\u2022 Your phone encrypts each photo before upload. Vexl stores only the encrypted file and can't see what's in it.\n\u2022 Photos download by a random ID, so our chat server never learns who opened which photo.\n\u2022 Tap a photo to open it full screen, then share or save it.\n\u2022 You both need Vexl 26.11.1 or newer. If the other person has an older version, the app asks them to update.\n\nIdentity and photos\n\u2022 Tap the avatar in the chat header or in chat info to see the other person's photo full screen.\n\u2022 New users get a dot on the profile icon and an \"Add your identity\" card in Account until they add one. A photo alone counts.\n\u2022 Identity and phone number exchanges no longer disappear from the chat after you approve them.\n\nContacts\n\u2022 Swipe left or right to switch between All, New, Active and Unused in contact preferences.\n\nChats\n\u2022 Sending several messages quickly no longer freezes the chat or hides the message field behind the keyboard.\n\u2022 New messages stay at the bottom even if your phone's clock runs behind.\n\u2022 A message that can't be sent stops waiting after a while, so you can retry it.\n\u2022 The space above the message field stays the same after every message and when you come back to the chat.\n\nDonations\n\u2022 The donation prompt shows up later in a chat and no longer asks you if you donated in the last 30 days.\n\nPrivacy\n\u2022 Our servers no longer put phone numbers, IP addresses or login details into performance traces.\n\nFixes\n\u2022 Typing a new maximum in a price range keeps your minimum.",
+          "minOSVersion": "16.4",
+          "appPermissions": {
+            "entitlements": ["com.apple.developer.associated-domains"],
+            "privacy": {
+              "NSCalendarsFullAccessUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
+              "NSCalendarsUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
+              "NSCameraUsageDescription": "Vexl wants to access your camera in order to take a photo for your avatar or scan QR code to add other users to your Vexl network.",
+              "NSContactsUsageDescription": "Vexl needs access to your contacts to make your offers visible for them in a secure way. Phone number of contacts you select will be encrypted and uploaded to the server.",
+              "NSFaceIDUsageDescription": "Vexl needs access to FaceID to secure your account and make it easier to log in.",
+              "NSLocationWhenInUseUsageDescription": "Vexl needs access to you location to show your position on the map. Location will never be share with anyone (even ourselves).",
+              "NSPhotoLibraryUsageDescription": "Vexl wants to access your photos in order to select a picture for your avatar.",
+              "NSRemindersFullAccessUsageDescription": "Vexl needs access to your reminders for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
+              "NSRemindersUsageDescription": "Vexl needs access to your reminders for scheduling trade meetings. Your data is kept private and only used for coordinating trades."
+            }
+          }
+        },
+        {
           "version": "26.11.0",
           "buildVersion": "261100000",
           "marketingVersion": "26.11.0 (261100000)",
