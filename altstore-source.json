@@ -32,6 +32,30 @@
       "beta": false,
       "versions": [
         {
+          "version": "26.11.3",
+          "buildVersion": "261100300",
+          "marketingVersion": "26.11.3 (261100300)",
+          "date": "2026-11-19",
+          "size": 30875574,
+          "downloadURL": "https://releases.vexl.it/ios/08aecf22-87b1-4101-9ff3-eef705c72694/",
+          "localizedDescription": "What's new in 26.11.3\n\nCheck with a common friend\n\u2022 Before you meet, ask a friend you both know. Vexl lists the friends you share with the other trader.\n\u2022 Call a friend straight from the list, or tap the message button. Vexl drafts the text, you edit it and send it through any app.\n\u2022 The draft uses only what the other trader revealed to you and doesn't mention Vexl or bitcoin.\n\u2022 The check stays between you and your friend. Nothing about it is sent to Vexl or to the other trader.\n\u2022 If you're still anonymous to each other, the app asks you to reveal identities first.\n\u2022 Vexl bot reminds you in the chat, also right under an accepted meeting time. You can turn the first reminder off for good.\n\nTrade checklist\n\u2022 The Privacy section is now called Safety and sits at the top for in-person trades.\n\u2022 Online trades get the same Safety section, and Calculate amount moved under Payment details.\n\nChat\n\u2022 Tap the other person's generated avatar to see it full screen.\n\u2022 In chat info, tap the number of common friends to see who they are.\n\u2022 A photo that is no longer on the server now says so instead of offering a retry.\n\nPhotos\n\u2022 Picking a photo from your gallery no longer asks for access to your photo library.\n\nFixes\n\u2022 The phone number screen in sign-up and login is centered like the other login screens.",
+          "minOSVersion": "16.4",
+          "appPermissions": {
+            "entitlements": ["com.apple.developer.associated-domains"],
+            "privacy": {
+              "NSCalendarsFullAccessUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
+              "NSCalendarsUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
+              "NSCameraUsageDescription": "Vexl wants to access your camera in order to take a photo for your avatar or scan QR code to add other users to your Vexl network.",
+              "NSContactsUsageDescription": "Vexl needs access to your contacts to make your offers visible for them in a secure way. Phone number of contacts you select will be encrypted and uploaded to the server.",
+              "NSFaceIDUsageDescription": "Vexl needs access to FaceID to secure your account and make it easier to log in.",
+              "NSLocationWhenInUseUsageDescription": "Vexl needs access to you location to show your position on the map. Location will never be share with anyone (even ourselves).",
+              "NSPhotoLibraryUsageDescription": "Vexl wants to access your photos in order to select a picture for your avatar.",
+              "NSRemindersFullAccessUsageDescription": "Vexl needs access to your reminders for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
+              "NSRemindersUsageDescription": "Vexl needs access to your reminders for scheduling trade meetings. Your data is kept private and only used for coordinating trades."
+            }
+          }
+        },
+        {
           "version": "26.11.2",
           "buildVersion": "261100202",
           "marketingVersion": "26.11.2 (261100202)",
